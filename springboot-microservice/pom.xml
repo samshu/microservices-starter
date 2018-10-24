@@ -48,6 +48,11 @@
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
+				<configuration>
+					<skip>false</skip>
+					<fork>true</fork>
+					<mainClass>com.aathif.learning.microservice.SpringMicroService</mainClass>
+				</configuration>
 			</plugin>
 		</plugins>
 	</build>
